@@ -10,11 +10,11 @@ class Step07CicdApplicationTests {
 	
 	@Test
 	public void testAddition() {
-		int result = 2 + 3;
+		int result = 12 + 3;
 		
 		
 		System.out.println("비교 전*******************");
-		assertEquals(5, result);
+		assertEquals(15, result);
 		
 		System.out.println("비교 후*******************");
 	}
